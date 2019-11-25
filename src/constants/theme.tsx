@@ -1,3 +1,4 @@
+import { PaletteType } from '@material-ui/core'
 export default {
   typography: {
     fontFamily: [
@@ -12,8 +13,9 @@ export default {
       "sans-serif"
     ].join(",")
   },
-  darkMode: true,
+  
   palette: {
+    type: 'dark' as PaletteType,
     primary: {
       main: "#007aff"
     },

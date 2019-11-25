@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContent renders main with default ui 1`] = `
+<MainContent>
+  <main
+    className="Main-content-1"
+  >
+    Test
+  </main>
+</MainContent>
+`;

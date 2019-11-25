@@ -1,8 +1,16 @@
 import * as React from "react";
 import { Route, RouteComponentProps, RouteProps, Redirect } from "react-router";
+import { isLoggedIn } from '../../auth'
 
-const PrivateRoute: React.SFC<RouteProps> = ({
+const Unauthenticated = () => <Redirect to="/login" />
+
+interface PrivateRouteProps extends RouteProps {
+  unauthenticated?: React.ComponentType<RouteComponentProps<any>> | React.ComponentType<any>;
+}
+
+const PrivateRoute: React.SFC<PrivateRouteProps> = ({
   component: Component,
+  unauthenticated: UnauthenticatedComponent = Unauthenticated,
   ...rest
 }) => {
   if (!Component) {
@@ -12,7 +20,7 @@ const PrivateRoute: React.SFC<RouteProps> = ({
     <Route
       {...rest}
       render={(props: RouteComponentProps<{}>) =>
-        true ? <Component {...props} /> : <Redirect to="/login" />
+        isLoggedIn() ? <Component {...props} /> : <UnauthenticatedComponent  {...props} />
       }
     />
   );

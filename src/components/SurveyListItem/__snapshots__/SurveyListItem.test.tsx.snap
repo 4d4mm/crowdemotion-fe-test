@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyListItem renders Survey list item with default ui 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "test",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "test",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "test",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <SurveyListItem
+      author={
+        Object {
+          "name": "crowd_emotion_sample_api",
+          "type": "api",
+          "username": "crowd_emotion_sample_api",
+        }
+      }
+      createdAt="2019/11/07 21:12:02"
+      extProjectId="project001"
+      jobNumber="PO-1234"
+      state="PROVISIONED"
+      stateLastUpdatedAt="2019/11/07 21:12:01"
+      title=".."
+      updatedAt="2019/11/15 12:15:31"
+    >
+      <WithStyles(ForwardRef(Card))
+        className="makeStyles-card-1"
+      >
+        <ForwardRef(Card)
+          className="makeStyles-card-1"
+          classes={
+            Object {
+              "root": "MuiCard-root",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Paper))
+            className="MuiCard-root makeStyles-card-1"
+            elevation={1}
+          >
+            <ForwardRef(Paper)
+              className="MuiCard-root makeStyles-card-1"
+              classes={
+                Object {
+                  "elevation0": "MuiPaper-elevation0",
+                  "elevation1": "MuiPaper-elevation1",
+                  "elevation10": "MuiPaper-elevation10",
+                  "elevation11": "MuiPaper-elevation11",
+                  "elevation12": "MuiPaper-elevation12",
+                  "elevation13": "MuiPaper-elevation13",
+                  "elevation14": "MuiPaper-elevation14",
+                  "elevation15": "MuiPaper-elevation15",
+                  "elevation16": "MuiPaper-elevation16",
+                  "elevation17": "MuiPaper-elevation17",
+                  "elevation18": "MuiPaper-elevation18",
+                  "elevation19": "MuiPaper-elevation19",
+                  "elevation2": "MuiPaper-elevation2",
+                  "elevation20": "MuiPaper-elevation20",
+                  "elevation21": "MuiPaper-elevation21",
+                  "elevation22": "MuiPaper-elevation22",
+                  "elevation23": "MuiPaper-elevation23",
+                  "elevation24": "MuiPaper-elevation24",
+                  "elevation3": "MuiPaper-elevation3",
+                  "elevation4": "MuiPaper-elevation4",
+                  "elevation5": "MuiPaper-elevation5",
+                  "elevation6": "MuiPaper-elevation6",
+                  "elevation7": "MuiPaper-elevation7",
+                  "elevation8": "MuiPaper-elevation8",
+                  "elevation9": "MuiPaper-elevation9",
+                  "root": "MuiPaper-root",
+                  "rounded": "MuiPaper-rounded",
+                }
+              }
+              elevation={1}
+            >
+              <div
+                className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-card-1 MuiPaper-rounded"
+              >
+                <WithStyles(ForwardRef(CardContent))>
+                  <ForwardRef(CardContent)
+                    classes={
+                      Object {
+                        "root": "MuiCardContent-root",
+                      }
+                    }
+                  >
+                    <div
+                      className="MuiCardContent-root"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-title-3"
+                        color="textSecondary"
+                        gutterBottom={true}
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-title-3"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          color="textSecondary"
+                          gutterBottom={true}
+                        >
+                          <p
+                            className="MuiTypography-root makeStyles-title-3 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+                          >
+                            Project
+                          </p>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                      <WithStyles(ForwardRef(Typography))
+                        component="h2"
+                        variant="h5"
+                      >
+                        <ForwardRef(Typography)
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          component="h2"
+                          variant="h5"
+                        >
+                          <h2
+                            className="MuiTypography-root MuiTypography-h5"
+                          >
+                            PO-1234
+                             - 
+                            ..
+                          </h2>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-pos-4"
+                        color="textSecondary"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-pos-4"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          color="textSecondary"
+                        >
+                          <p
+                            className="MuiTypography-root makeStyles-pos-4 MuiTypography-body1 MuiTypography-colorTextSecondary"
+                          >
+                            Created: 
+                            2019/11/07 21:12:02
+                            <br />
+                            Updated: 
+                            2019/11/15 12:15:31
+                            <br />
+                          </p>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                      <WithStyles(ForwardRef(Typography))
+                        component="p"
+                        variant="body2"
+                      >
+                        <ForwardRef(Typography)
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          component="p"
+                          variant="body2"
+                        >
+                          <p
+                            className="MuiTypography-root MuiTypography-body2"
+                          >
+                            by 
+                            crowd_emotion_sample_api
+                          </p>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </div>
+                  </ForwardRef(CardContent)>
+                </WithStyles(ForwardRef(CardContent))>
+                <WithStyles(ForwardRef(CardActions))>
+                  <ForwardRef(CardActions)
+                    classes={
+                      Object {
+                        "root": "MuiCardActions-root",
+                        "spacing": "MuiCardActions-spacing",
+                      }
+                    }
+                  >
+                    <div
+                      className="MuiCardActions-root MuiCardActions-spacing"
+                    >
+                      <Link
+                        to="/surveys/project001"
+                      >
+                        <LinkAnchor
+                          href="/surveys/project001"
+                          navigate={[Function]}
+                        >
+                          <a
+                            href="/surveys/project001"
+                            onClick={[Function]}
+                          >
+                            <WithStyles(ForwardRef(Button))
+                              size="small"
+                            >
+                              <ForwardRef(Button)
+                                classes={
+                                  Object {
+                                    "colorInherit": "MuiButton-colorInherit",
+                                    "contained": "MuiButton-contained",
+                                    "containedPrimary": "MuiButton-containedPrimary",
+                                    "containedSecondary": "MuiButton-containedSecondary",
+                                    "containedSizeLarge": "MuiButton-containedSizeLarge",
+                                    "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                    "disabled": "Mui-disabled",
+                                    "endIcon": "MuiButton-endIcon",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "fullWidth": "MuiButton-fullWidth",
+                                    "iconSizeLarge": "MuiButton-iconSizeLarge",
+                                    "iconSizeMedium": "MuiButton-iconSizeMedium",
+                                    "iconSizeSmall": "MuiButton-iconSizeSmall",
+                                    "label": "MuiButton-label",
+                                    "outlined": "MuiButton-outlined",
+                                    "outlinedPrimary": "MuiButton-outlinedPrimary",
+                                    "outlinedSecondary": "MuiButton-outlinedSecondary",
+                                    "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                                    "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                                    "root": "MuiButton-root",
+                                    "sizeLarge": "MuiButton-sizeLarge",
+                                    "sizeSmall": "MuiButton-sizeSmall",
+                                    "startIcon": "MuiButton-startIcon",
+                                    "text": "MuiButton-text",
+                                    "textPrimary": "MuiButton-textPrimary",
+                                    "textSecondary": "MuiButton-textSecondary",
+                                    "textSizeLarge": "MuiButton-textSizeLarge",
+                                    "textSizeSmall": "MuiButton-textSizeSmall",
+                                  }
+                                }
+                                size="small"
+                              >
+                                <WithStyles(ForwardRef(ButtonBase))
+                                  className="MuiButton-root MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+                                  component="button"
+                                  disabled={false}
+                                  focusRipple={true}
+                                  focusVisibleClassName="Mui-focusVisible"
+                                  type="button"
+                                >
+                                  <ForwardRef(ButtonBase)
+                                    className="MuiButton-root MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+                                    classes={
+                                      Object {
+                                        "disabled": "Mui-disabled",
+                                        "focusVisible": "Mui-focusVisible",
+                                        "root": "MuiButtonBase-root",
+                                      }
+                                    }
+                                    component="button"
+                                    disabled={false}
+                                    focusRipple={true}
+                                    focusVisibleClassName="Mui-focusVisible"
+                                    type="button"
+                                  >
+                                    <button
+                                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onDragLeave={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      onKeyUp={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseLeave={[Function]}
+                                      onMouseUp={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchMove={[Function]}
+                                      onTouchStart={[Function]}
+                                      tabIndex={0}
+                                      type="button"
+                                    >
+                                      <span
+                                        className="MuiButton-label"
+                                      >
+                                        Learn More
+                                      </span>
+                                      <NoSsr>
+                                        <WithStyles(undefined)
+                                          center={false}
+                                        >
+                                          <ForwardRef(TouchRipple)
+                                            center={false}
+                                            classes={
+                                              Object {
+                                                "child": "MuiTouchRipple-child",
+                                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                                "ripple": "MuiTouchRipple-ripple",
+                                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                "root": "MuiTouchRipple-root",
+                                              }
+                                            }
+                                          >
+                                            <span
+                                              className="MuiTouchRipple-root"
+                                            >
+                                              <TransitionGroup
+                                                childFactory={[Function]}
+                                                component={null}
+                                                exit={true}
+                                              />
+                                            </span>
+                                          </ForwardRef(TouchRipple)>
+                                        </WithStyles(undefined)>
+                                      </NoSsr>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </WithStyles(ForwardRef(ButtonBase))>
+                              </ForwardRef(Button)>
+                            </WithStyles(ForwardRef(Button))>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </ForwardRef(CardActions)>
+                </WithStyles(ForwardRef(CardActions))>
+              </div>
+            </ForwardRef(Paper)>
+          </WithStyles(ForwardRef(Paper))>
+        </ForwardRef(Card)>
+      </WithStyles(ForwardRef(Card))>
+    </SurveyListItem>
+  </Router>
+</MemoryRouter>
+`;
