@@ -1,4 +1,4 @@
-import React, { SFC, ReactNode } from "react";
+import * as React from "react";
 import clsx from "clsx";
 import "./Button.scss";
 
@@ -6,10 +6,10 @@ type Variant = "primary" | "secondary";
 
 type BottonProps = {
   variant: Variant;
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
-const Button: SFC<BottonProps> = ({ variant = "primary", children }) => (
+const Button: React.SFC<BottonProps> = ({ variant = "primary", children }) => (
   <button
     className={clsx("btn", {
       [`btn__${variant}`]: true

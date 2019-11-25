@@ -1,20 +1,18 @@
-import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
+import * as React from "react";
+import Theme from "../../components/Theme/Theme";
 import Logo from "../../components/Logo/Logo";
+import AppBar from "../../components/AppBar/AppBar";
+import MainContent from "../../components/MainContent/MainContent";
 
 type LayoutProps = {
-  children: React.ReactElement;
+  children: React.ReactNode;
 };
 
 const Layout: React.SFC<LayoutProps> = ({ children }) => (
-  <main>
-    <CssBaseline />
-    <h1>
-      <Logo />
-      crowdemotion
-    </h1>
-    {children}
-  </main>
+  <Theme>
+    <AppBar logo={Logo} />
+    <MainContent>{children}</MainContent>
+  </Theme>
 );
 
 export default Layout;
