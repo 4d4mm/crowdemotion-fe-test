@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 describe("Logo", () => {
   it("renders Logo", () => {
-    const Logo = mount(<Logo />);
-    //expect(logo).toMatchSnapshot();
+    const logo = mount(<Logo />);
+    expect(logo).toMatchSnapshot();
   });
 });

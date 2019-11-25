@@ -6,8 +6,8 @@ const Logo = () => (
     <desc>Created with sketchtool.</desc>
     <defs>
       <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-        <stop stop-color="#F9BE00" offset="0%" />
-        <stop stop-color="#F60000" offset="100%" />
+        <stop stopColor="#F9BE00" offset="0%" />
+        <stop stopColor="#F60000" offset="100%" />
       </linearGradient>
       <linearGradient
         x1="50%"
@@ -16,8 +16,8 @@ const Logo = () => (
         y2="99.1422086%"
         id="linearGradient-2"
       >
-        <stop stop-color="#54E42B" offset="0%" />
-        <stop stop-color="#10A8B7" offset="100%" />
+        <stop stopColor="#54E42B" offset="0%" />
+        <stop stopColor="#10A8B7" offset="100%" />
       </linearGradient>
       <linearGradient
         x1="50%"
@@ -26,21 +26,21 @@ const Logo = () => (
         y2="99.5117188%"
         id="linearGradient-3"
       >
-        <stop stop-color="#FF2198" offset="0%" />
-        <stop stop-color="#8F21A1" offset="100%" />
+        <stop stopColor="#FF2198" offset="0%" />
+        <stop stopColor="#8F21A1" offset="100%" />
       </linearGradient>
     </defs>
     <g
       id="MVP-AUDIT-DESKTOP-all-flow"
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     >
       <g
         id="AUDIT-03-Homepage-button-expanded"
         transform="translate(-57.000000, -43.000000)"
-        fill-rule="nonzero"
+        fillRule="nonzero"
       >
         <g id="Vertical-Menu/expanded/organisations-v4">
           <g id="EH-isotype" transform="translate(57.000000, 43.000000)">

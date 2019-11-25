@@ -4,16 +4,16 @@ import { makeStyles } from "@material-ui/core";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(
-  theme => ({
+  (theme) => ({
     link: {
       textDecoration: "none",
       display: "flex",
-      flexDirection: "row",
       alignItems: "center"
     },
     title: {
       fontFamily: "'Comfortaa', cursive",
-      letterSpacing: "-1px"
+      letterSpacing: "-1px",
+      color: theme.palette.secondary.contrastText,
     }
   }),
   {

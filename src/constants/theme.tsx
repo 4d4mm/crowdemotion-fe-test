@@ -12,8 +12,8 @@ export default {
       "sans-serif"
     ].join(",")
   },
+  darkMode: true,
   palette: {
-    type: "dark",
     primary: {
       main: "#007aff"
     },

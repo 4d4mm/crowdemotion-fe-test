@@ -1,0 +1,594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders layout 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "test",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "test",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "test",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Layout>
+      <Theme>
+        <ThemeProvider
+          theme={
+            Object {
+              "breakpoints": Object {
+                "between": [Function],
+                "down": [Function],
+                "keys": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "only": [Function],
+                "up": [Function],
+                "values": Object {
+                  "lg": 1280,
+                  "md": 960,
+                  "sm": 600,
+                  "xl": 1920,
+                  "xs": 0,
+                },
+                "width": [Function],
+              },
+              "darkMode": true,
+              "direction": "ltr",
+              "mixins": Object {
+                "gutters": [Function],
+                "toolbar": Object {
+                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                    "minHeight": 48,
+                  },
+                  "@media (min-width:600px)": Object {
+                    "minHeight": 64,
+                  },
+                  "minHeight": 56,
+                },
+              },
+              "overrides": Object {},
+              "palette": Object {
+                "action": Object {
+                  "active": "rgba(0, 0, 0, 0.54)",
+                  "disabled": "rgba(0, 0, 0, 0.26)",
+                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                  "hover": "rgba(0, 0, 0, 0.08)",
+                  "hoverOpacity": 0.08,
+                  "selected": "rgba(0, 0, 0, 0.14)",
+                },
+                "augmentColor": [Function],
+                "background": Object {
+                  "default": "#fafafa",
+                  "paper": "#fff",
+                },
+                "common": Object {
+                  "black": "#000",
+                  "white": "#fff",
+                },
+                "contrastThreshold": 3,
+                "divider": "rgba(0, 0, 0, 0.12)",
+                "error": Object {
+                  "contrastText": "#fff",
+                  "dark": "#d32f2f",
+                  "light": "#e57373",
+                  "main": "#f44336",
+                },
+                "getContrastText": [Function],
+                "grey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "800": "#424242",
+                  "900": "#212121",
+                  "A100": "#d5d5d5",
+                  "A200": "#aaaaaa",
+                  "A400": "#303030",
+                  "A700": "#616161",
+                },
+                "primary": Object {
+                  "contrastText": "#fff",
+                  "dark": "rgb(0, 85, 178)",
+                  "light": "rgb(51, 148, 255)",
+                  "main": "#007aff",
+                },
+                "secondary": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "rgb(178, 178, 178)",
+                  "light": "rgb(255, 255, 255)",
+                  "main": "#fff",
+                },
+                "text": Object {
+                  "disabled": "rgba(0, 0, 0, 0.38)",
+                  "hint": "rgba(0, 0, 0, 0.38)",
+                  "primary": "rgba(0, 0, 0, 0.87)",
+                  "secondary": "rgba(0, 0, 0, 0.54)",
+                },
+                "tonalOffset": 0.2,
+                "type": "light",
+              },
+              "props": Object {},
+              "shadows": Array [
+                "none",
+                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+              ],
+              "shape": Object {
+                "borderRadius": 4,
+              },
+              "spacing": [Function],
+              "transitions": Object {
+                "create": [Function],
+                "duration": Object {
+                  "complex": 375,
+                  "enteringScreen": 225,
+                  "leavingScreen": 195,
+                  "short": 250,
+                  "shorter": 200,
+                  "shortest": 150,
+                  "standard": 300,
+                },
+                "easing": Object {
+                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                },
+                "getAutoHeightDuration": [Function],
+              },
+              "typography": Object {
+                "body1": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.5,
+                },
+                "body2": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.43,
+                },
+                "button": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "lineHeight": 1.75,
+                  "textTransform": "uppercase",
+                },
+                "caption": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.66,
+                },
+                "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "fontSize": 14,
+                "fontWeightBold": 700,
+                "fontWeightLight": 300,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "h1": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "6rem",
+                  "fontWeight": 300,
+                  "lineHeight": 1,
+                },
+                "h2": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "3.75rem",
+                  "fontWeight": 300,
+                  "lineHeight": 1,
+                },
+                "h3": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "3rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.04,
+                },
+                "h4": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "2.125rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.17,
+                },
+                "h5": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "1.5rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.33,
+                },
+                "h6": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "1.25rem",
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                },
+                "htmlFontSize": 16,
+                "overline": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "lineHeight": 2.66,
+                  "textTransform": "uppercase",
+                },
+                "pxToRem": [Function],
+                "round": [Function],
+                "subtitle1": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "lineHeight": 1.75,
+                },
+                "subtitle2": Object {
+                  "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "lineHeight": 1.57,
+                },
+              },
+              "zIndex": Object {
+                "appBar": 1100,
+                "drawer": 1200,
+                "mobileStepper": 1000,
+                "modal": 1300,
+                "snackbar": 1400,
+                "speedDial": 1050,
+                "tooltip": 1500,
+              },
+              Symbol(mui.nested): false,
+            }
+          }
+        >
+          <CssBaseline />
+          <CrowdEmotionAppBar
+            logo={[Function]}
+          >
+            <WithStyles(ForwardRef(AppBar))
+              color="secondary"
+              position="fixed"
+            >
+              <ForwardRef(AppBar)
+                classes={
+                  Object {
+                    "colorDefault": "MuiAppBar-colorDefault",
+                    "colorPrimary": "MuiAppBar-colorPrimary",
+                    "colorSecondary": "MuiAppBar-colorSecondary",
+                    "positionAbsolute": "MuiAppBar-positionAbsolute",
+                    "positionFixed": "MuiAppBar-positionFixed",
+                    "positionRelative": "MuiAppBar-positionRelative",
+                    "positionStatic": "MuiAppBar-positionStatic",
+                    "positionSticky": "MuiAppBar-positionSticky",
+                    "root": "MuiAppBar-root",
+                  }
+                }
+                color="secondary"
+                position="fixed"
+              >
+                <WithStyles(ForwardRef(Paper))
+                  className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorSecondary mui-fixed"
+                  component="header"
+                  elevation={4}
+                  square={true}
+                >
+                  <ForwardRef(Paper)
+                    className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorSecondary mui-fixed"
+                    classes={
+                      Object {
+                        "elevation0": "MuiPaper-elevation0",
+                        "elevation1": "MuiPaper-elevation1",
+                        "elevation10": "MuiPaper-elevation10",
+                        "elevation11": "MuiPaper-elevation11",
+                        "elevation12": "MuiPaper-elevation12",
+                        "elevation13": "MuiPaper-elevation13",
+                        "elevation14": "MuiPaper-elevation14",
+                        "elevation15": "MuiPaper-elevation15",
+                        "elevation16": "MuiPaper-elevation16",
+                        "elevation17": "MuiPaper-elevation17",
+                        "elevation18": "MuiPaper-elevation18",
+                        "elevation19": "MuiPaper-elevation19",
+                        "elevation2": "MuiPaper-elevation2",
+                        "elevation20": "MuiPaper-elevation20",
+                        "elevation21": "MuiPaper-elevation21",
+                        "elevation22": "MuiPaper-elevation22",
+                        "elevation23": "MuiPaper-elevation23",
+                        "elevation24": "MuiPaper-elevation24",
+                        "elevation3": "MuiPaper-elevation3",
+                        "elevation4": "MuiPaper-elevation4",
+                        "elevation5": "MuiPaper-elevation5",
+                        "elevation6": "MuiPaper-elevation6",
+                        "elevation7": "MuiPaper-elevation7",
+                        "elevation8": "MuiPaper-elevation8",
+                        "elevation9": "MuiPaper-elevation9",
+                        "root": "MuiPaper-root",
+                        "rounded": "MuiPaper-rounded",
+                      }
+                    }
+                    component="header"
+                    elevation={4}
+                    square={true}
+                  >
+                    <header
+                      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorSecondary mui-fixed"
+                    >
+                      <WithStyles(ForwardRef(Toolbar))
+                        variant="dense"
+                      >
+                        <ForwardRef(Toolbar)
+                          classes={
+                            Object {
+                              "dense": "MuiToolbar-dense",
+                              "gutters": "MuiToolbar-gutters",
+                              "regular": "MuiToolbar-regular",
+                              "root": "MuiToolbar-root",
+                            }
+                          }
+                          variant="dense"
+                        >
+                          <div
+                            className="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+                          >
+                            <Link
+                              className="CrowdEmotionAppBar-link-1"
+                              to="/"
+                            >
+                              <LinkAnchor
+                                className="CrowdEmotionAppBar-link-1"
+                                href="/"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="CrowdEmotionAppBar-link-1"
+                                  href="/"
+                                  onClick={[Function]}
+                                >
+                                  <Logo>
+                                    <svg
+                                      height="24px"
+                                      version="1.1"
+                                      viewBox="0 0 76 24"
+                                      width="76px"
+                                    >
+                                      <title>
+                                        2EBD3EEC-0BC0-47C7-A29D-82F916856692
+                                      </title>
+                                      <desc>
+                                        Created with sketchtool.
+                                      </desc>
+                                      <defs>
+                                        <linearGradient
+                                          id="linearGradient-1"
+                                          x1="50%"
+                                          x2="50%"
+                                          y1="0%"
+                                          y2="100%"
+                                        >
+                                          <stop
+                                            offset="0%"
+                                            stopColor="#F9BE00"
+                                          />
+                                          <stop
+                                            offset="100%"
+                                            stopColor="#F60000"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="linearGradient-2"
+                                          x1="50%"
+                                          x2="50%"
+                                          y1="0%"
+                                          y2="99.1422086%"
+                                        >
+                                          <stop
+                                            offset="0%"
+                                            stopColor="#54E42B"
+                                          />
+                                          <stop
+                                            offset="100%"
+                                            stopColor="#10A8B7"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="linearGradient-3"
+                                          x1="50%"
+                                          x2="50%"
+                                          y1="0%"
+                                          y2="99.5117188%"
+                                        >
+                                          <stop
+                                            offset="0%"
+                                            stopColor="#FF2198"
+                                          />
+                                          <stop
+                                            offset="100%"
+                                            stopColor="#8F21A1"
+                                          />
+                                        </linearGradient>
+                                      </defs>
+                                      <g
+                                        fill="none"
+                                        fillRule="evenodd"
+                                        id="MVP-AUDIT-DESKTOP-all-flow"
+                                        stroke="none"
+                                        strokeWidth="1"
+                                      >
+                                        <g
+                                          fillRule="nonzero"
+                                          id="AUDIT-03-Homepage-button-expanded"
+                                          transform="translate(-57.000000, -43.000000)"
+                                        >
+                                          <g
+                                            id="Vertical-Menu/expanded/organisations-v4"
+                                          >
+                                            <g
+                                              id="EH-isotype"
+                                              transform="translate(57.000000, 43.000000)"
+                                            >
+                                              <g
+                                                id="isotype"
+                                              >
+                                                <g>
+                                                  <path
+                                                    d="M50.4338457,11.8208499 L50.4341475,11.844144 C58.1434024,17.488224 65.8555317,17.488224 73.5705355,11.844144 C74.1741684,13.672152 71.9493499,18.178992 69.370975,20.2176 C65.6338515,23.1938088 60.4068763,23.6156944 56.2204003,21.279024 C52.7718296,19.333509 49.9783429,14.8113862 50.4338457,11.8208499 Z M62.5671695,2.13162821e-14 C63.5123844,0.115950467 64.4486486,0.293246522 65.3697509,0.530712 C69.7542068,1.73965544 72.9796753,5.38424354 73.5705355,9.797112 C73.6348465,10.0127018 73.5183518,10.2403057 73.3032123,10.3194 C70.4935014,12.0390771 67.3209321,13.1134403 64.0245118,13.461552 C61.0903926,13.7866843 58.1192115,13.4227884 55.3580676,12.400128 C53.8403619,11.818872 52.4002662,11.060712 50.9170539,10.395216 C50.5634974,10.243584 50.4772642,10.041408 50.5290041,9.64548 C51.3342158,4.81626829 55.1963077,1.023128 60.1353911,0.2106 L61.5237468,0.016848 L62.5671695,2.13162821e-14 Z"
+                                                    fill="url(#linearGradient-1)"
+                                                    id="Combined-Shape"
+                                                  />
+                                                  <path
+                                                    d="M22.3602885,15.795 C20.5599577,20.0301018 16.3271339,22.7903105 11.632869,22.7903105 C6.938604,22.7903105 2.70578024,20.0301018 0.9054494,15.795 C7.47458976,11.8073847 15.7911481,11.8073847 22.3602885,15.795 Z M12.0726587,-4.97379915e-14 C12.9349914,0.134784 13.7542075,0.219024 14.5734237,0.429624 C20.647689,1.95896093 24.3714156,7.93457149 22.9725448,13.908024 C22.9725448,14.034384 22.8949348,14.15232 22.8431949,14.329224 C16.3186988,8.95825278 6.77120393,8.99748599 0.293193139,14.421888 C0.137065294,13.3861375 0.0391873489,12.3428037 -5.86197757e-14,11.296584 C0.0179535071,6.10572489 3.67043516,1.60127328 8.83891081,0.395928 C9.58914031,0.202176 10.3652398,0.12636 11.1240926,-4.97379915e-14 L12.0726587,-4.97379915e-14 Z"
+                                                    fill="url(#linearGradient-2)"
+                                                    id="Combined-Shape"
+                                                  />
+                                                  <path
+                                                    d="M48.3965784,12.122136 C48.023077,18.0958412 42.9548345,22.7537507 36.8283844,22.7537507 C30.7019343,22.7537507 25.6336918,18.0958412 25.2601904,12.122136 C32.9532267,12.8718548 40.7035421,12.8718548 48.3965784,12.122136 Z M36.8283844,0.0997897923 C42.9408551,0.0997897923 47.9976431,4.74685455 48.3707084,10.706904 C40.6939009,9.9782601 32.9628679,9.9782601 25.2860604,10.706904 C25.6591257,4.74685455 30.7159137,0.0997897923 36.8283844,0.0997897923 Z"
+                                                    fill="url(#linearGradient-3)"
+                                                    id="Combined-Shape"
+                                                  />
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </svg>
+                                  </Logo>
+                                   
+                                  <WithStyles(ForwardRef(Typography))
+                                    className="CrowdEmotionAppBar-title-2"
+                                    variant="h5"
+                                  >
+                                    <ForwardRef(Typography)
+                                      className="CrowdEmotionAppBar-title-2"
+                                      classes={
+                                        Object {
+                                          "alignCenter": "MuiTypography-alignCenter",
+                                          "alignJustify": "MuiTypography-alignJustify",
+                                          "alignLeft": "MuiTypography-alignLeft",
+                                          "alignRight": "MuiTypography-alignRight",
+                                          "body1": "MuiTypography-body1",
+                                          "body2": "MuiTypography-body2",
+                                          "button": "MuiTypography-button",
+                                          "caption": "MuiTypography-caption",
+                                          "colorError": "MuiTypography-colorError",
+                                          "colorInherit": "MuiTypography-colorInherit",
+                                          "colorPrimary": "MuiTypography-colorPrimary",
+                                          "colorSecondary": "MuiTypography-colorSecondary",
+                                          "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                          "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                          "displayBlock": "MuiTypography-displayBlock",
+                                          "displayInline": "MuiTypography-displayInline",
+                                          "gutterBottom": "MuiTypography-gutterBottom",
+                                          "h1": "MuiTypography-h1",
+                                          "h2": "MuiTypography-h2",
+                                          "h3": "MuiTypography-h3",
+                                          "h4": "MuiTypography-h4",
+                                          "h5": "MuiTypography-h5",
+                                          "h6": "MuiTypography-h6",
+                                          "noWrap": "MuiTypography-noWrap",
+                                          "overline": "MuiTypography-overline",
+                                          "paragraph": "MuiTypography-paragraph",
+                                          "root": "MuiTypography-root",
+                                          "srOnly": "MuiTypography-srOnly",
+                                          "subtitle1": "MuiTypography-subtitle1",
+                                          "subtitle2": "MuiTypography-subtitle2",
+                                        }
+                                      }
+                                      variant="h5"
+                                    >
+                                      <h5
+                                        className="MuiTypography-root CrowdEmotionAppBar-title-2 MuiTypography-h5"
+                                      >
+                                        <b>
+                                          crowd
+                                        </b>
+                                        emotion
+                                      </h5>
+                                    </ForwardRef(Typography)>
+                                  </WithStyles(ForwardRef(Typography))>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </ForwardRef(Toolbar)>
+                      </WithStyles(ForwardRef(Toolbar))>
+                    </header>
+                  </ForwardRef(Paper)>
+                </WithStyles(ForwardRef(Paper))>
+              </ForwardRef(AppBar)>
+            </WithStyles(ForwardRef(AppBar))>
+          </CrowdEmotionAppBar>
+          <MainContent>
+            <main
+              className="Main-content-73"
+            >
+              Test
+            </main>
+          </MainContent>
+        </ThemeProvider>
+      </Theme>
+    </Layout>
+  </Router>
+</MemoryRouter>
+`;

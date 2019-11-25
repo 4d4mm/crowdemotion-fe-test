@@ -7,7 +7,6 @@ import {
 
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
-//import Paper from "@material-ui/core/Paper";
 
 import { ArrayFieldTemplateProps, IdSchema } from "react-jsonschema-form";
 
@@ -16,7 +15,6 @@ import IconButton from "./IconButton";
 
 const ArrayFieldTemplate = (props: ArrayFieldTemplateProps) => {
   const { schema, registry = getDefaultRegistry() } = props;
-
   if (isMultiSelect(schema, registry.definitions)) {
     return <DefaultFixedArrayFieldTemplate {...props} />;
   } else {
