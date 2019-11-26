@@ -16,7 +16,7 @@ const App:React.SFC<AppProps> = ({ router:Router = BrowserRouter }) => (
         <Route exact path="/login" component={LoginPage} />
         <PrivateRoute exact path="/" component={SurveyList} />
         <PrivateRoute exact path="/new-survey" component={SurveyForm} />
-        <PrivateRoute path="/survey/:surveyId" component={SurveyDetails} />
+        <PrivateRoute exact path="/surveys/:surveyId" component={SurveyDetails} />
       </Router>
     </div>
 );

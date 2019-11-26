@@ -137,10 +137,12 @@ exports[`App renders with default ui 1`] = `
           </PrivateRoute>
           <PrivateRoute
             component={[Function]}
-            path="/survey/:surveyId"
+            exact={true}
+            path="/surveys/:surveyId"
           >
             <Route
-              path="/survey/:surveyId"
+              exact={true}
+              path="/surveys/:surveyId"
               render={[Function]}
             />
           </PrivateRoute>

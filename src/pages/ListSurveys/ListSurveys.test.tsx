@@ -1,7 +1,6 @@
 import React from "react";
-import renderer from 'react-test-renderer'
+import renderer from 'react-test-renderer';
 import { MemoryRouter, Route } from "react-router-dom";
-import { mount } from "enzyme";
 import ListSurveys from "./ListSurveys";
 
 

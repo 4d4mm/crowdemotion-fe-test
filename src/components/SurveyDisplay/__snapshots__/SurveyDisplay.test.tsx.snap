@@ -1,0 +1,594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyDisplay renders demo survey 1`] = `
+<div>
+  <div
+    className="MuiGrid-root PageTitle-main-3 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item"
+    >
+      <h1
+        className="MuiTypography-root MuiTypography-h3"
+      >
+        .. (Project)
+      </h1>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <button
+          className="btn btn__secondary"
+        >
+          Back to Project List
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-direction-xs-column"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation1 SurveyDisplay-paper-1 MuiPaper-rounded"
+    >
+      <dl
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Project ID
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          project001
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Job Number
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          PO-1234
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Author
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          crowd_emotion_sample_api
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Created At
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          2019/11/07 21:12:02
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Updated At
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          2019/11/15 12:15:31
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Category
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              AUTOMOTIVE
+            </span>
+          </div>
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              BUSINESS
+            </span>
+          </div>
+        </dd>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Devices
+          </p>
+        </dd>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              mobile
+            </span>
+          </div>
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              desktop
+            </span>
+          </div>
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              tablet
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            State
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              PROVISIONED
+            </span>
+          </div>
+        </dd>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Exclusions
+          </p>
+        </dd>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        />
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Notification Emails
+          </p>
+        </dd>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              api-test@dynata.com
+            </span>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <h5
+      className="MuiTypography-root SurveyDisplay-subtitle-2 MuiTypography-h5"
+    >
+      Line Items
+    </h5>
+    <div
+      className="MuiPaper-root MuiPaper-elevation1 SurveyDisplay-paper-1 MuiPaper-rounded"
+    >
+      <dl
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Title
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              US College
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            CountryISOCode
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              US
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Created At
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          2019/11/07 21:12:02
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Days In Field
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              20
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Delivery Type
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              BALANCED
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Ext Line Item Id
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              lineItem001
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Indicative Incidence
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              20
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Ianguage ISO Code
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              en
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Launched At
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Length Of Interview
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              10
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Quota Plan
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              800
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            State
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              PROVISIONED
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            State Last Updated At
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          2019/11/07 21:12:02
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Survey Test URL
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              www.mysurvey.com/test/survey?pid=&lt;#DubKnowledge[1500/Entity id]&gt;&k2=&lt;#Project[Secure Key 2]&gt;&psid=&lt;#IdParameter[Value]&gt;
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Survey URL
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              www.mysurvey.com/live/survey?pid=&lt;#DubKnowledge[1500/Entity id]&gt;&k2=&lt;#Project[Secure Key 2]&gt;&psid=&lt;#IdParameter[Value]&gt;
+            </span>
+          </div>
+        </dd>
+        <dt
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Updated At
+          </p>
+        </dt>
+        <dd
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          lineItem.updatedAt
+        </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+`;
