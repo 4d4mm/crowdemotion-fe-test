@@ -57,12 +57,12 @@ export type SurveyLineItem = {
     createdAt: string;
     daysInField: number;
     deliveryType: string;
-    endLinks: Array<SurveyEndlink>,
+    endLinks: SurveyEndlink,
     extLineItemId: string;
     indicativeIncidence: number;
     languageISOCode: string;
     launchedAt: string;
-    lengthOfInterview: string;
+    lengthOfInterview: number;
     
     quotaPlan: SurveyQuotaPlan;
     requiredCompletes: number;
