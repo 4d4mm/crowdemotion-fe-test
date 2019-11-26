@@ -1,4 +1,4 @@
-# CrowdEmotion Fronted App
+# CrowdEmotion Frontend App
 
 This is a ReactJS/Typescript solution the CrowdEmotion's 'Frontend Developer Exercise 2 - Implement Dynata Web App'
 
