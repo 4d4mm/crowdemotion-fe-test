@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders with default ui 1`] = `
+<App
+  router={[Function]}
+>
+  <div
+    className="App"
+  >
+    <ConfiguredMenoryRouter>
+      <MemoryRouter
+        initialEntries={
+          Array [
+            Object {
+              "pathname": "/",
+            },
+          ]
+        }
+        keyLength={0}
+      >
+        <Router
+          history={
+            Object {
+              "action": "REPLACE",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "pathname": "/login",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/login",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/login"
+          />
+          <PrivateRoute
+            component={[Function]}
+            exact={true}
+            path="/"
+          >
+            <Route
+              exact={true}
+              path="/"
+              render={[Function]}
+            >
+              <Unauthenticated
+                history={
+                  Object {
+                    "action": "REPLACE",
+                    "block": [Function],
+                    "canGo": [Function],
+                    "createHref": [Function],
+                    "entries": Array [
+                      Object {
+                        "hash": "",
+                        "pathname": "/login",
+                        "search": "",
+                        "state": undefined,
+                      },
+                    ],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "index": 0,
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/login",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+              >
+                <Redirect
+                  to="/login"
+                >
+                  <Lifecycle
+                    onMount={[Function]}
+                    onUpdate={[Function]}
+                    to="/login"
+                  />
+                </Redirect>
+              </Unauthenticated>
+            </Route>
+          </PrivateRoute>
+          <PrivateRoute
+            component={[Function]}
+            exact={true}
+            path="/new-survey"
+          >
+            <Route
+              exact={true}
+              path="/new-survey"
+              render={[Function]}
+            />
+          </PrivateRoute>
+          <PrivateRoute
+            component={[Function]}
+            path="/survey/:surveyId"
+          >
+            <Route
+              path="/survey/:surveyId"
+              render={[Function]}
+            />
+          </PrivateRoute>
+        </Router>
+      </MemoryRouter>
+    </ConfiguredMenoryRouter>
+  </div>
+</App>
+`;

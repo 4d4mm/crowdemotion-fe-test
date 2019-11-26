@@ -1,14 +1,17 @@
 import React from "react";
+import renderer from 'react-test-renderer'
 import { MemoryRouter, Route } from "react-router-dom";
-import { mount } from "enzyme";
 import LoginPage from "./LoginPage";
 
 describe("LoginPage", () => {
   it("renders LoginPage", () => {
-    const loginPage = mount(<MemoryRouter initialEntries={[{pathname:'/login', key:'test'}]}>
-        <Route path="/login" component={LoginPage} />
-      </MemoryRouter>);
-    expect(loginPage).toMatchSnapshot();
+      const component = renderer.create(
+        <MemoryRouter keyLength={0} initialEntries={[{ pathname: '/login'}]}>
+          <Route path="/login" component={LoginPage}/>
+        </MemoryRouter>
+      );
+      const loginPage = component.toJSON();
+      expect(loginPage).toMatchSnapshot();
   });
 
   // it("logs in LoginPage", () => {

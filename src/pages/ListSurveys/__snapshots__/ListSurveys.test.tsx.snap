@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoginPage renders LoginPage 1`] = `
+exports[`ListSurveys renders ListSurveys 1`] = `
 Array [
   <header
     className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorSecondary mui-fixed"
@@ -135,133 +135,33 @@ Array [
   <main
     className="Main-content-73"
   >
-    <form
-      className="rjsf"
-      noValidate={false}
-      onSubmit={[Function]}
+    <div
+      className="MuiGrid-root PageTitle-main-74 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
     >
       <div
-        className="MuiFormControl-root MuiFormControl-fullWidth"
+        className="MuiGrid-root MuiGrid-item"
       >
-        <div
-          className="MuiBox-root MuiBox-root-80"
+        <h1
+          className="MuiTypography-root MuiTypography-h3"
         >
-          <h5
-            className="MuiTypography-root MuiTypography-h5"
-          >
-            Login
-          </h5>
-          <hr
-            className="MuiDivider-root"
-          />
-        </div>
-        <div
-          className="MuiGrid-root makeStyles-root-78 MuiGrid-container MuiGrid-spacing-xs-2"
-        >
-          <div
-            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
-            style={
-              Object {
-                "marginBottom": "10px",
-              }
-            }
-          >
-            <div
-              className="MuiFormControl-root MuiFormControl-fullWidth"
-            >
-              <div
-                className="MuiFormControl-root MuiFormControl-fullWidth"
-              >
-                <div
-                  className="MuiFormControl-root MuiTextField-root"
-                >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                    htmlFor="loginform_username"
-                    id="loginform_username-label"
-                  >
-                    username
-                  </label>
-                  <div
-                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-                    onClick={[Function]}
-                  >
-                    <input
-                      aria-invalid={false}
-                      autoFocus={false}
-                      className="MuiInputBase-input MuiInput-input"
-                      disabled={false}
-                      id="loginform_username"
-                      onAnimationStart={[Function]}
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      required={false}
-                      type="string"
-                      value=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
-            style={
-              Object {
-                "marginBottom": "10px",
-              }
-            }
-          >
-            <div
-              className="MuiFormControl-root MuiFormControl-fullWidth"
-            >
-              <div
-                className="MuiFormControl-root MuiFormControl-fullWidth"
-              >
-                <div
-                  className="MuiFormControl-root MuiTextField-root"
-                >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                    htmlFor="loginform_password"
-                    id="loginform_password-label"
-                  >
-                    password
-                  </label>
-                  <div
-                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-                    onClick={[Function]}
-                  >
-                    <input
-                      aria-invalid={false}
-                      autoFocus={false}
-                      className="MuiInputBase-input MuiInput-input"
-                      disabled={false}
-                      id="loginform_password"
-                      onAnimationStart={[Function]}
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      required={false}
-                      type="password"
-                      value=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          Surveys
+        </h1>
       </div>
-      <button
-        className="btn btn__primary"
+      <div
+        className="MuiGrid-root MuiGrid-item"
       >
-        Login
-      </button>
-    </form>
+        <a
+          href="/new-survey"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn__primary"
+          >
+            Create New Project
+          </button>
+        </a>
+      </div>
+    </div>
   </main>,
 ]
 `;

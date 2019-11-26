@@ -60,10 +60,10 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
       updatedAt="2019/11/15 12:15:31"
     >
       <WithStyles(ForwardRef(Card))
-        className="makeStyles-card-1"
+        className="SurveyListItem-card-1"
       >
         <ForwardRef(Card)
-          className="makeStyles-card-1"
+          className="SurveyListItem-card-1"
           classes={
             Object {
               "root": "MuiCard-root",
@@ -71,11 +71,11 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
           }
         >
           <WithStyles(ForwardRef(Paper))
-            className="MuiCard-root makeStyles-card-1"
+            className="MuiCard-root SurveyListItem-card-1"
             elevation={1}
           >
             <ForwardRef(Paper)
-              className="MuiCard-root makeStyles-card-1"
+              className="MuiCard-root SurveyListItem-card-1"
               classes={
                 Object {
                   "elevation0": "MuiPaper-elevation0",
@@ -110,7 +110,7 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
               elevation={1}
             >
               <div
-                className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-card-1 MuiPaper-rounded"
+                className="MuiPaper-root MuiPaper-elevation1 MuiCard-root SurveyListItem-card-1 MuiPaper-rounded"
               >
                 <WithStyles(ForwardRef(CardContent))>
                   <ForwardRef(CardContent)
@@ -124,12 +124,12 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
                       className="MuiCardContent-root"
                     >
                       <WithStyles(ForwardRef(Typography))
-                        className="makeStyles-title-3"
+                        className="SurveyListItem-title-3"
                         color="textSecondary"
                         gutterBottom={true}
                       >
                         <ForwardRef(Typography)
-                          className="makeStyles-title-3"
+                          className="SurveyListItem-title-3"
                           classes={
                             Object {
                               "alignCenter": "MuiTypography-alignCenter",
@@ -168,7 +168,7 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
                           gutterBottom={true}
                         >
                           <p
-                            className="MuiTypography-root makeStyles-title-3 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+                            className="MuiTypography-root SurveyListItem-title-3 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
                           >
                             Project
                           </p>
@@ -226,11 +226,11 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
                         </ForwardRef(Typography)>
                       </WithStyles(ForwardRef(Typography))>
                       <WithStyles(ForwardRef(Typography))
-                        className="makeStyles-pos-4"
+                        className="SurveyListItem-pos-5"
                         color="textSecondary"
                       >
                         <ForwardRef(Typography)
-                          className="makeStyles-pos-4"
+                          className="SurveyListItem-pos-5"
                           classes={
                             Object {
                               "alignCenter": "MuiTypography-alignCenter",
@@ -268,7 +268,7 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
                           color="textSecondary"
                         >
                           <p
-                            className="MuiTypography-root makeStyles-pos-4 MuiTypography-body1 MuiTypography-colorTextSecondary"
+                            className="MuiTypography-root SurveyListItem-pos-5 MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
                             Created: 
                             2019/11/07 21:12:02
@@ -345,13 +345,16 @@ exports[`SurveyListItem renders Survey list item with default ui 1`] = `
                       className="MuiCardActions-root MuiCardActions-spacing"
                     >
                       <Link
+                        className="SurveyListItem-link-4"
                         to="/surveys/project001"
                       >
                         <LinkAnchor
+                          className="SurveyListItem-link-4"
                           href="/surveys/project001"
                           navigate={[Function]}
                         >
                           <a
+                            className="SurveyListItem-link-4"
                             href="/surveys/project001"
                             onClick={[Function]}
                           >

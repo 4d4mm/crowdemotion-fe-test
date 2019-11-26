@@ -6,11 +6,12 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import { SurveyListItemResponseType } from '../../types/survey'
+import { SurveyListItemResponseType } from '../../types/survey';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme=>({
   card: {
     minWidth: 275,
+    marginBottom: theme.spacing(2),
   },
   bullet: {
     display: 'inline-block',
@@ -20,9 +21,14 @@ const useStyles = makeStyles({
   title: {
     fontSize: 14,
   },
-  pos: {
-    marginBottom: 12,
+  link: {
+    textDecoration: 'none',
   },
+  pos: {
+    marginBottom: theme.spacing(1.5),
+  },
+}),{
+    name: 'SurveyListItem'
 });
 
 const SurveyListItem: React.SFC<SurveyListItemResponseType> = ({
@@ -54,7 +60,7 @@ const SurveyListItem: React.SFC<SurveyListItemResponseType> = ({
         </Typography>
       </CardContent>
       <CardActions>
-        <Link to={`/surveys/${extProjectId}`}>
+        <Link to={`/surveys/${extProjectId}`} className={classes.link}>
             <Button size="small">Learn More</Button>
         </Link>
       </CardActions>
