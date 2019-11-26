@@ -10,3 +10,7 @@ npm i && npm start
 To run the tests use 
 npm i && npm test -- --collectCoverage
 
+# TODO: 
+- [ ] finish the form error handling
+- [ ] Custom widget for attibutes
+- [ ] deploy netlify 
